@@ -120,7 +120,12 @@
   background-color: rgb(217 99 33);
   display:flex;
   justify-content: center;
-  align-items: center
+  align-items: center;
+  cursor: pointer;
+}
+
+.circle-left:hover{
+  opacity: 0.8;
 }
 
 .article-product{
@@ -132,6 +137,10 @@
 
 .arrow-right{
   transform: scaleX(-1);
+}
+
+.arrow-right:hover{
+  opacity: 0.8;
 }
 
 .article1-text{
@@ -239,7 +248,9 @@ footer{
   display: none;
 }
 
-
+.article-superDesktop{
+  display: none;
+}
 
 
 
@@ -276,16 +287,19 @@ footer{
     padding-left: 50px;
     padding-top: 6px;
     font-size: 15px;
+    cursor: pointer;
   }
   
   .nav-arrowProducts{
     padding-left: 13px;
+    cursor: pointer;
   }
   
   .nav-contact {
     padding-right: 50px;
     padding-top: 6px;
     font-size: 15px;
+    cursor: pointer;
   }
 
   .article-mobile{
@@ -298,6 +312,10 @@ footer{
 
   .footer-terms-mobile{
     font-size: 12px;
+  }
+
+  .article-superDesktop{
+    display: none;
   }
 }
 
@@ -334,20 +352,20 @@ footer{
     padding-left: 71px;
     padding-top: 6px;
     font-size: 15px;
+    cursor: pointer;
   }
   
   .nav-arrowProducts{
     padding-left: 13px;
+    cursor: pointer;
   }
   
   .nav-contact {
     padding-right: 123px;
     padding-top: 6px;
     font-size: 15px;
+    cursor: pointer;
   }
-
-
-
 
   .header-title{
     font-size: 80px;
@@ -378,6 +396,11 @@ footer{
     font-size: 15px;
     padding: 21px 30px;
     font-weight: bold;
+    cursor: pointer;
+  }
+
+  .buttonOrange:hover{
+    opacity: 0.80;
   }
 
   .article-mobile{
@@ -487,6 +510,11 @@ footer{
     background-size: 100% 560px;
     border-radius: 0px;
     margin-bottom: 0px;
+    cursor: pointer;
+  }
+
+  .category-content:hover{
+    opacity: 0.7;
   }
   
   .image-raquets{
@@ -571,10 +599,12 @@ footer{
 
   .footer-insta{
     margin-right: 11px;
+    cursor: pointer;
   }
 
   .footer-fb{
     margin-left: 11px;
+    cursor: pointer;
   }
   
   .footer-terms-mobile{
@@ -594,11 +624,81 @@ footer{
     text-decoration: underline;
     text-decoration-color: rgb(111 126 13);
     color: rgb(111 126 13);
+    cursor: pointer;
   }
 
+  .article-superDesktop{
+    display: none;
+  }
+}
 
 
+/* Diseño superior a desktop */
+@media only screen and (min-width: 1501px){
+  .textGreenHeader{
+    font-size: 20px;
+  }
 
+  .nav-products{
+    font-size: 25px;
+  } 
 
+  .nav-contact{
+    font-size: 25px;
+  }
 
+  .header-title{
+    font-size: 110px;
+  }
+
+  .subtitle-desktop{
+    font-size: 20px;
+  }
+
+  .buttonOrange{
+    width: 450px;
+    font-size: 25px;
+    padding: 5px 5px;
+  }
+
+  .article-mobile{
+    display: none;
+  }
+
+  .article-desktop{
+    display: none;
+  }
+
+  .article-superDesktop{
+    display: block;
+    margin: 150px 200px 20px 200px;
+  }
+
+  .article-product{
+    width: 400px;
+  }
+
+  .article1-text{
+    font-size: 15px
+  }
+
+  .margin-botton{
+    margin: 120px 0px 0px 0px;
+  }
+
+  .margin-text2{
+    margin-top: 22px;
+  }
+
+  .category-name{
+    font-size: 40px;
+  }
+
+  .title-pasion{
+    font-size: 90px;
+  }
+
+  .footer-terms-desktop{
+    font-size: 20px;
+  }
 }
