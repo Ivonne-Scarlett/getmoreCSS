@@ -99,6 +99,11 @@
   padding: 12px 25px;
   border: none;
   width: 180px;
+  cursor: pointer;
+}
+
+.buttonOrange:hover{
+  opacity: 0.8;
 }
 
 .article-mobile{
@@ -267,6 +272,10 @@ footer{
     margin: 0px 16px 0px 16px;
   }
 
+  .category-content:hover{
+    opacity: 0.8;
+  }
+
   .navflex-desktop{
     display: block;
   }
@@ -312,6 +321,14 @@ footer{
 
   .footer-terms-mobile{
     font-size: 12px;
+  }
+
+  .footer-redes{
+    cursor: pointer;
+  }
+
+  .footer-underline:hover{
+    cursor: pointer;
   }
 
   .article-superDesktop{
