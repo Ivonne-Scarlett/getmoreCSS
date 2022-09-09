@@ -291,11 +291,12 @@ footer{
     font-weight: bold;
     text-align: center;
     padding-top: 86px;
+    margin: 0px 237px 0px 236px;
   }
 
   .header-text{    
     font-size: 21px;
-    padding: none;       
+    padding: 0px;       
   }
 
   .subtitle-mobile{
@@ -304,6 +305,8 @@ footer{
 
   .subtitle-desktop{
     display: block;
+    margin: 30px 486px 45px 487px;
+    padding: 0px;
   }
 
   .buttonOrange{
