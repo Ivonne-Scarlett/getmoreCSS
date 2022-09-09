@@ -89,18 +89,62 @@
   display:flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 
 .buttonOrange{
   background-color: rgb(217 99 33);
   color: white;
   border-radius: 50px;
-  padding: 12px;
+  padding: 12px 25px;
   border: none;
+  width: 180px;
 }
 
+.article-mobile{
+  display: block;
+  margin: 40px 16px 36px 16px;
+}
+
+.article-desktop{
+  display: none;
+}
+
+.circle-left{
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: rgb(217 99 33);
+  display:flex;
+  justify-content: center;
+  align-items: center
+}
+
+.article-product{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.arrow-right{
+  transform: scaleX(-1);
+}
+
+.article1-text{
+  color: black;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 40px;
+}
+
+
+
+
+
 /* Diseño desktop */
-@media only screen and (min-width: 992px){
+@media only screen and (min-width: 1440px){
   .textGreenHeader {
     font-size: 15px;
     padding: 7px;
@@ -170,5 +214,101 @@
     padding: 21px 30px;
     font-weight: bold;
   }
+
+  .article-mobile{
+    display: none;
+  }
+  
+  .article-desktop{
+    display: block;
+    margin-top: 124px;
+  }
+
+  .flex-articles{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .left-articles-arrow{
+    margin-left: 182px;
+    margin-right: 24px;
+  }
+
+  .circle-left{
+    width: 47px;
+    height: 47px;
+  }
+
+  .article-product1{
+    margin-right: 11px;
+    width: 304px; 
+    height: 378px;
+  }
+
+  .article-product2{
+    margin-right: 12px;
+    width: 303px; 
+    height: 378px;
+  }
+
+  .article-product3{
+    margin-right: 24px;
+    width: 305px; 
+    height: 378px;
+  }
+
+  .row-title-articles{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+
+  .text-article1{
+    margin-left: 254px;
+    margin-top: 9px;
+    margin-right: 11px;
+    width: 304px;
+  }
+
+  .name-article1{
+    color:black;
+    font-size: 19px;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+
+  .name-article2{
+    color:black;
+    font-size: 19px;
+    text-align: center;
+    padding-bottom: 49px;
+  }
+
+  .text-article2{
+    margin-top: 9px;
+    margin-right: 12px;
+    width: 304px;
+  }
+
+  .text-article3{
+    margin-top: 9px;
+    width: 304px;
+  }
+
+  .price-text{
+    font-size: 17px;
+    color: rgb(217 99 33);
+    text-align: center;
+  }
+
+  .button-position-articles{
+    margin-top: 41px;
+    margin-bottom: 133px;
+  }
+
+ 
+
 
 }
